@@ -1,0 +1,55 @@
+#! /usr/bin/env bash
+
+# Installs App Store software.
+
+# 1Password
+mas install 443987910
+
+# DaisyDisk
+mas install 411643860
+
+# Hand Mirror
+mas install 1502839586
+
+# Kaleidoscope
+mas install 587512244
+
+# Kindle
+mas install 405399194
+
+# Magnet
+mas install 441258766
+
+# Medis
+mas install 1063631769
+
+# Meeter
+mas install 1510445899
+
+# MindNode
+mas install 1289197285
+
+# MoneyWell
+mas install 404246493
+
+# Name Mangler
+mas install 603637384
+
+# OmniFocus 3
+mas install 1346203938
+
+# Patterns
+mas install 429449079
+
+# Primitive
+mas install 1175103038
+
+# Slack
+mas install 803453959
+
+# TextSniper
+mas install 1528890965
+
+# Things3
+mas install 904280696
+

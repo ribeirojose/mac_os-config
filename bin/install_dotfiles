@@ -1,0 +1,15 @@
+#! /usr/bin/env zsh
+
+# Installs Dotfiles project.
+
+if [[ -z $(cat /etc/shells | grep "$(get_homebrew_bin_root)/zsh") ]]; then
+  sudo bash -c "printf '$(get_homebrew_bin_root)/zsh\n' >> /etc/shells"
+  chsh -s "$(get_homebrew_bin_root)/zsh"
+  
+  install_program "https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh" "install.sh"
+  install_git_project "git://github.com/scmbreeze/scm_breeze.git" "master" ".scm_breeze" "install.sh"
+
+  source "$HOME/.zshrc"
+else
+  printf "%s\n" "Dotfiles are installed."
+fi
