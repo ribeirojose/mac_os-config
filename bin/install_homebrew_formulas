@@ -19,6 +19,7 @@ brew install git-filter-repo
 brew install git-sizer
 brew install gpg
 brew install gping
+brew tap heroku/brew && brew install heroku
 brew install hexyl
 brew install hr
 brew install htop
