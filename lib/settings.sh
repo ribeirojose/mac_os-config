@@ -11,14 +11,6 @@ IFS=$'\n\t'
 # Homebrew
 export HOMEBREW_CURL_RETRIES=3
 
-# Repositories
-export REPO_SUBLIME_TEXT_SETUP=18.0.0
-export REPO_DOTFILES=44.0.0
-
-# Applications
-export ELM_APP_NAME="elm"
-export ELM_APP_URL="https://github.com/elm/compiler/releases/download/0.19.1/installer-for-mac.pkg"
-
 export DOCKER_APP_NAME="Docker.app"
 export DOCKER_VOLUME_NAME="Docker"
 
@@ -27,14 +19,6 @@ if [[ "$(/usr/bin/arch)" == "arm64" ]]; then
 else
   export DOCKER_APP_URL="https://desktop.docker.com/mac/stable/amd64/Docker.dmg"
 fi
-
-export GHOSTLAB_APP_NAME="Ghostlab3.app"
-export GHOSTLAB_VOLUME_NAME="Ghostlab3"
-export GHOSTLAB_APP_URL="https://awesome.vanamco.com/Ghostlab3/downloads/Ghostlab3.dmg"
-
-export SONOS_APP_NAME="Sonos S1 Controller.app"
-export SONOS_VOLUME_NAME="Sonos"
-export SONOS_APP_URL="https://www.sonos.com/redir/controller_software_mac"
 
 # Application Extensions
 export VIM_EXTENSION_ROOT="$HOME/.vim/bundle"
